@@ -1,0 +1,23 @@
+{
+    "name": "harishariyanto/admin",
+    "description": "Membuat dashboard admin",
+    "authors": [
+        {
+            "name": "Haris Hariyanto",
+            "email": "harishariyanto299@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Harishariyanto\\Admin\\AdminServiceProvider"
+    		]
+    	}
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Harishariyanto\\Admin\\": "src"
+    	}
+    }
+}
